@@ -9,7 +9,7 @@ public class FuntionTest {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		List<String> names = Arrays.asList("priya","pintu","kittu","kuttu");
+		List<String> names = Arrays.asList("priya","pintu","kittu Singh","kuttu");
 		Function<String , Integer> nameLength = String::length;
 		
 		List<Integer> output = names.stream().map(nameLength).collect(Collectors.toList());
