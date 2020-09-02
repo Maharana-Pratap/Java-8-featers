@@ -3,6 +3,7 @@ package core;
 @FunctionalInterface 
 interface Java {
 	void show();
+	//void make(int i);
 	default void test() {
 		System.out.println("from java test");
 	}
